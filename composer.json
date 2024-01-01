@@ -1,0 +1,21 @@
+{
+    "name": "nicholas/starcorn",
+    "description": "It's attemp to write async server on php",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Starcorn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicholas Nartikoev",
+            "email": "nartikoevnikolai@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "ext-sockets": "*"
+    }
+}
