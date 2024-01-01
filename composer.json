@@ -1,5 +1,5 @@
 {
-    "name": "nicholas/starcorn",
+    "name": "nartikoevnicholas/starcorn",
     "description": "It's attemp to write async server on php",
     "license": "Apache-2.0",
     "autoload": {
