@@ -2,9 +2,9 @@
 
 
 require_once('Config.php');
-require_once('src/server/WebServer.php');
-require_once('src/enum/EnumServer.php');
-require_once('src/enum/EnumProtocol.php');
+require_once('server/WebServer.php');
+require_once('enum/EnumServer.php');
+require_once('enum/EnumProtocol.php');
 
 
 use Starcorn\enum\EnumServer;

@@ -1,8 +1,8 @@
 <?php namespace Starcorn\server;
 
 
-require_once('src/StarSocket.php');
-require_once('src/abstract/AbstractServer.php');
+require_once(__DIR__.'/../StarSocket.php');
+require_once(__DIR__.'/../abstract/AbstractServer.php');
 
 
 use Starcorn\StarSocket;

@@ -1,8 +1,8 @@
 <?php namespace Starcorn\protocol;
 
 
-require_once('src/StarSocket.php');
-require_once('src/abstract/AbstractProtocol.php');
+require_once(__DIR__.'/../StarSocket.php');
+require_once(__DIR__.'/../abstract/AbstractProtocol.php');
 
 
 use Starcorn\StarSocket;
@@ -32,7 +32,6 @@ final class H11Protocol extends AbstractProtocol
         if($this->protocol !== $protocol) return false;
         [$headers, $body] = self::parse_buffer($buffer);
 
-//        $content = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nConnection: close\r\n\r\nHi";
         $app = self::$config->app();
         $content = $app($method, $path, $protocol, $headers, $body);
         $this->clients_write[$id] = $this->clients_read[$id];

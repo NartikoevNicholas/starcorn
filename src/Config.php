@@ -1,7 +1,7 @@
 <?php namespace Starcorn;
 
 
-require_once('src/protocol/H11Protocol.php');
+require_once('protocol/H11Protocol.php');
 
 
 use Starcorn\abstract\{AbstractProtocol, AbstractServer};
