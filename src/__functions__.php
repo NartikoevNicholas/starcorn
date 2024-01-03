@@ -1,4 +1,4 @@
-<?php namespace Starcorn;
+<?php namespace Starutils\Starcorn;
 
 
 require_once('Config.php');
@@ -7,8 +7,8 @@ require_once('enum/EnumServer.php');
 require_once('enum/EnumProtocol.php');
 
 
-use Starcorn\enum\EnumServer;
-use Starcorn\enum\EnumProtocol;
+use Starutils\Starcorn\enum\EnumServer;
+use Starutils\Starcorn\enum\EnumProtocol;
 
 
 function run(callable $app,

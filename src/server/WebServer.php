@@ -1,12 +1,12 @@
-<?php namespace Starcorn\server;
+<?php namespace Starutils\Starcorn\server;
 
 
 require_once(__DIR__.'/../StarSocket.php');
 require_once(__DIR__.'/../abstract/AbstractServer.php');
 
 
-use Starcorn\StarSocket;
-use Starcorn\abstract\{AbstractServer, AbstractProtocol};
+use Starutils\Starcorn\StarSocket;
+use Starutils\Starcorn\abstract\{AbstractServer, AbstractProtocol};
 
 
 final class WebServer extends AbstractServer

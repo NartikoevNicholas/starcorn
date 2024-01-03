@@ -1,12 +1,12 @@
-<?php namespace Starcorn\protocol;
+<?php namespace Starutils\Starcorn\protocol;
 
 
 require_once(__DIR__.'/../StarSocket.php');
 require_once(__DIR__.'/../abstract/AbstractProtocol.php');
 
 
-use Starcorn\StarSocket;
-use Starcorn\abstract\AbstractProtocol;
+use Starutils\Starcorn\StarSocket;
+use Starutils\Starcorn\abstract\AbstractProtocol;
 
 
 final class H11Protocol extends AbstractProtocol

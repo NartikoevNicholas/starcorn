@@ -1,11 +1,11 @@
-<?php namespace Starcorn;
+<?php namespace Starutils\Starcorn;
 
 
 require_once('protocol/H11Protocol.php');
 
 
-use Starcorn\abstract\{AbstractProtocol, AbstractServer};
-use Starcorn\enum\{EnumServer, EnumProtocol};
+use Starutils\Starcorn\enum\{EnumServer, EnumProtocol};
+use Starutils\Starcorn\abstract\{AbstractProtocol, AbstractServer};
 
 
 final class Config

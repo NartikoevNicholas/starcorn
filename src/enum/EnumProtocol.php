@@ -1,7 +1,7 @@
-<?php namespace Starcorn\enum;
+<?php namespace Starutils\Starcorn\enum;
 
 
 enum EnumProtocol: string
 {
-    case h11protocol = 'Starcorn\protocol\H11Protocol';
+    case h11protocol = 'Starutils\Starcorn\protocol\H11Protocol';
 }

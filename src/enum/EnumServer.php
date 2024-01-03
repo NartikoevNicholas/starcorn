@@ -1,7 +1,7 @@
-<?php namespace Starcorn\enum;
+<?php namespace Starutils\Starcorn\enum;
 
 
 enum EnumServer: string
 {
-    case webserver = 'Starcorn\server\WebServer';
+    case webserver = 'Starutils\Starcorn\server\WebServer';
 }

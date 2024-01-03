@@ -1,8 +1,8 @@
-<?php namespace Starcorn\abstract;
+<?php namespace Starutils\Starcorn\abstract;
 
 
 use Socket;
-use Starcorn\{Config, StarSocket};
+use Starutils\Starcorn\{Config, StarSocket};
 
 
 abstract class AbstractProtocol

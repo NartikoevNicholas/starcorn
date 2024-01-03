@@ -1,7 +1,7 @@
-<?php namespace Starcorn\abstract;
+<?php namespace Starutils\Starcorn\abstract;
 
 
-use Starcorn\Config;
+use Starutils\Starcorn\Config;
 
 
 abstract class AbstractServer

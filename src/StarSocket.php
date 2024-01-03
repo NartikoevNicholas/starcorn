@@ -1,4 +1,4 @@
-<?php namespace Starcorn;
+<?php namespace Starutils\Starcorn;
 
 
 use Socket;
