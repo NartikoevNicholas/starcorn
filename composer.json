@@ -4,7 +4,7 @@
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Star\\Starcorn\\": "src/"
+            "Starcorn\\": "src/"
         },
         "files": ["src/__functions__.php"]
     },
